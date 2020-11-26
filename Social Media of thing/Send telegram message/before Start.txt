@@ -1,0 +1,19 @@
+Code
+The code can be basically divided into three major parts. They are,
+
+Reading values from the Bolt device
+Comparing the sensor value with the threshold.
+Sending a message via Telegram if the threshold has been breached.
+The above steps are put in a while loop so that it reads the sensor value every 10 seconds and sends the alert if required.
+
+We will be building the system functionally as,
+
+Reading the sensor value from the device.
+Sending a Telegram message.
+Checking if sensor value is valid and sending a message if it exceeds the threshold.
+How this works
+Telegram is a third-party messaging service which is similar to WhatsApp. It is free of cost and simple to use.
+
+Telegram has a feature called as Bots which are just customized applications which you can build in order to send messages to a particular channel or group.
+
+So, if we want to send a message to a channel, we will need to send a request to Telegram instructing the bot to send a message to a particular group.

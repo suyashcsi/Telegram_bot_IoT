@@ -1,0 +1,9 @@
+Add the bot to channel
+From the App home screen, open the channel we have created earlier.
+Click on the channel name on the top to open the information for the Channel.
+Click on the Administrators button so that we can add the newly created bot to the channel.
+Search for the bot that we have created using the Bot's username. Once you have found the correct Bot click on it to add it to the channel. 
+Please make sure you have clicked on the Administrators button in the previous step as this will allow our bot to post to the channel.
+You will be asked to confirm the rights for the bot. Press on the tick mark on the top right to continue adding the bot to the channel. Make sure that the bot has the rights to "Post Messages".
+You will now see the newly created Bot in the list of administrators for the channel.
+Now we will code for sending messages to the channel via the Bot.

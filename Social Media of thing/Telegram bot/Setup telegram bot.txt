@@ -1,0 +1,20 @@
+What is a Bot?
+Bots are third-party applications that run inside Telegram. Users can interact with bots by sending them messages, commands and requests. 
+
+We will be using Bots to send alerts on our channel.
+------------Create a new Bot---------------------
+Telegram allows us to create a new bot with the help of a bot called as "BotFather". It is a single bot to create and manage other bots.
+
+Step1:On the Home screen of the app, click on the search icon on the top right and type in "botfather".
+Step2:In the search results, click on the correct result for "BotFather"
+      The correct "BotFather" will have a blue tick mark next to its name. This will take you to a chat window with the "BotFather".
+Step3:The chat will have a few items already and will display you a list of commands to get started.
+Step4:Since we need to create a new Bot, go ahead and type in "/newbot" in the window.
+      It will ask you to type in few more details like Bot name and Bot username.
+      When your bot is created successfully, you will be shown a screen similar to the one below and will contain the Bot Token.
+Step5:This token is used to control your Bot as well as send messages on behalf of it. Please keep this token secure as it will allow anyone to access your Bot.
+Step6:(MOST IMPORTANT)
+In the screenshot above, the Bot token is "894346529:AAhuJ2XJQy5dlEtLYF0sc0Z_qu0fSqihSSc". Please save it as telegram_bot_id. The telegram_bot_id is saved as "bot" followed by the bot token. So, in this example, the telegram_bot_id will be "bot894346529:AAhuJ2XJQy5dlEtLYF0sc0Z_qu0fSqihSSc".
+The telegram_bot_id will be used in the python code to send messages.
+Also, please be careful when saving the Bot ID. You may get confused between 0 and O, I and 1 etc. as they are similar looking.
+Congratulations, you have created a new Bot. Now, we will need to add it to the channel we have created previously so that we can send alerts.
