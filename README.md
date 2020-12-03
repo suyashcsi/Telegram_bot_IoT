@@ -4,4 +4,4 @@ We will be using Bots to send alerts on our channel.
 
 
 What will we learn in this project?
-In this project, you will be able to send alerts via Telegram to your phone when the sensor value exceeds your set threshold.
+In this project, I will be able to send alerts via Telegram to your phone when the sensor value exceeds your set threshold.
